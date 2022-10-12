@@ -126,6 +126,9 @@ box-shadow: rgba(213, 213, 222, 0.2) 0px 10px 29px 0px;
   gap: 20px;
   justify-content: center;
 }
+.footer a {
+  color: #551a8b;
+}
 
 
 /* @keyframes App-logo-spin {

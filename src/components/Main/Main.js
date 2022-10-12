@@ -14,7 +14,7 @@ function Main() {
             <div className='main_skills' id='skills'>
                 <h1>{Label_1}</h1>
                 <ul>
-                    {Skills.map((item) => <li key={item.id} className="skill_item"><h5>{item.name}</h5></li>)}
+                    {Skills.map((item,index) => <li key={index} className="skill_item"><h5>{item.name}</h5></li>)}
                 </ul>
             </div>
             <div className='main_projects' id='projects'>
@@ -25,6 +25,7 @@ function Main() {
                         <div className='project_item'>
                             <h5>{item.title}</h5>
                             <h5>{item.techs}</h5>
+                            <img src={item.image} alt='/pic'></img>
                             <h5>{item.overview}</h5>
                         </div>
                     </li>)}

@@ -1,32 +1,38 @@
 export const Skills = [{
-    name: "Github",
+    name: "JavaScript",
     id: 1,
 }, {
     name: "React.JS",
     id: 2,
 }, {
-    name: "Material UI",
+    name: "HTML5",
     id: 3,
 }, {
-    name: "Redux",
+    name: "CSS3",
     id: 4,
 }, {
-    name: "HTML 5",
+    name: "TypeScript",
     id: 5,
 }, {
-    name: "CSS 3",
+    name: "Bootstrap",
     id: 6,
 }, {
-    name: "Javascript",
+    name: "Material UI",
     id: 7,
 }, {
-    name: "Typescript",
+    name: "AntDesign",
     id: 8,
 }, {
-    name: "Bootstrap",
+    name: "Redux",
     id: 9,
 }, {
-    name: "AntDesign",
+    name: "Redux Saga",
+    id: 10,
+}, {
+    name: "Rest API",
+    id: 10,
+}, {
+    name: "GitHub",
     id: 10,
 },
 ]
