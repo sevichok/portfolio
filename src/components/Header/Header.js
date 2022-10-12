@@ -22,7 +22,12 @@ function Header() {
         </a>
       </div>
       <div className='header_contact'>
-        <h6 className='header_contact_btn'>Contact me</h6>
+        <a href='#contacts'>
+          <h6 variant='h6'
+            // className='header_contact_btn'
+          >Contact me</h6>
+        </a>
+
       </div>
     </div>
   )
