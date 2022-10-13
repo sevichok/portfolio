@@ -112,9 +112,9 @@ box-shadow: rgba(213, 213, 222, 0.2) 0px 10px 29px 0px;
 .project_item:hover {
   top: -4px;
 }
-.project_list img {
+.gif_wrap {
   box-sizing: border-box;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 

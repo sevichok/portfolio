@@ -25,7 +25,7 @@ function Main() {
                         <div className='project_item'>
                             <h5>{item.title}</h5>
                             <h5>{item.techs}</h5>
-                            <img src={item.image} alt='/pic'></img>
+                            <img className='gif_wrap' src={item.image} alt='/pic'></img>
                             <h5>{item.overview}</h5>
                         </div>
                     </li>)}
