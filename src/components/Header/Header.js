@@ -22,9 +22,10 @@ function Header() {
         </a>
       </div>
       <div className='header_contact'>
-        <a href='#contacts'>
+        <a href='mailto:v.naletski@gmail.com?subject=Контакт'
+          target='_blank'
+          rel="noreferrer">
           <h6 variant='h6'
-            // className='header_contact_btn'
           >Contact me</h6>
         </a>
 

@@ -8,11 +8,6 @@ function Footer() {
         rel="noreferrer">
         <h6>LinkedIn</h6>
       </a>
-      <a href='https://www.instagram.com/sevichok/'
-        target='_blank'
-        rel="noreferrer">
-        <h6>Instagram</h6>
-      </a>
       <a href='https://github.com/sevichok/'
         target='_blank'
         rel="noreferrer">
