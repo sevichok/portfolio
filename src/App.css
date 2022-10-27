@@ -66,55 +66,33 @@ a:hover {
   align-items: center;
 }
 .main_skills ul > li {
-  /* width: 40%; */
   padding: 4px 16px;
   border-radius: 4px;
   background-color: #1b1b32;
-  box-shadow: rgba(213, 213, 222, 0.2) 0px 4px 18px 2px;
+  box-shadow: rgba(213, 213, 222, 0.2) 0px 4px 10px 0px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   position:relative;
 }
-
-
-
-
-/* .projects {
-  gap: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: #0a0a23;
-  flex-wrap: wrap;
-} */
 .project_item {
 height:100%;
 width: 100%;
-/* color: #0a0a23; */
 color: #d0d0d5;
 border: 1px #d0d0d5 solid;
-/* background-color:#d0d0d5; */
 display:flex;
 flex-direction:column;
-/* justify-content:space-between; */
 align-items:center;
 padding:10px 10px;
 box-sizing:border-box;
 gap:10px;
 border-radius:8px;
 position:relative;
-/* box-shadow: rgba(0, 255, 8, 0.6) 0px 6px 10px 4px; */
 box-shadow: rgba(213, 213, 222, 0.2) 0px 6px 10px 0px;
 }
 .skill_item:hover  {
   top: -2px;
 }
-
-/* .project_item:hover {
-  top: -4px;
-} */
 .gif_wrap {
   box-sizing: border-box;
   max-width: 100%;
@@ -124,12 +102,6 @@ box-shadow: rgba(213, 213, 222, 0.2) 0px 6px 10px 0px;
   display: flex;
   gap: 10px;
 }
-
-
-
-
-
-
 
 .footer {
   background-color:#282c34;

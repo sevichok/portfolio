@@ -3,6 +3,7 @@ import RestPostsGif from "../images/posts.gif"
 import TodolistGif from "../images/todolist.gif"
 import RandomGif from "../images/random.gif"
 import VacManagerGif from "../images/vac-manager.gif"
+import JokeGenGif from "../images/joke-gen.gif"
 
 export const Projects = [{
     id: 1,
@@ -11,7 +12,7 @@ export const Projects = [{
     deploy: "https://todolist-sevichok.vercel.app/",
     image: TodolistGif,
     code: "https://github.com/sevichok/Project-todolist",
-    overview: "In dllum fugiat qui anim.",
+    overview: "JS Basics with crearing CRUD app.",
 },
 {
     id: 2,
@@ -20,7 +21,7 @@ export const Projects = [{
     deploy: "https://api-posts-todos-users.vercel.app",
     image: RestPostsGif,
     code: "https://github.com/sevichok/Project-API-Posts-Todos-Users",
-    overview: "In qui anim.",
+    overview: "Working with Rest API. Searching for selected parameters.",
 },
 {
     id: 3,
@@ -29,7 +30,7 @@ export const Projects = [{
     deploy: "https://bank-acc.vercel.app/",
     image: BankAccGif,
     code: "https://github.com/sevichok/bank-account",
-    overview: "In fugiat qui anim.",
+    overview: "Working with drag and drop logic.",
 },
 {
     id: 4,
@@ -38,7 +39,7 @@ export const Projects = [{
     deploy: "https://api-random-users.vercel.app/",
     image: RandomGif,
     code: "https://github.com/sevichok/api-random-users",
-    overview: `Проект основан на AXIOS запросе, и получении ответа в виде обьекта с интересующими нас параметрами. Из предоставленной ссылки, используя RandomUser API, мы выгружаем данные пользователей по определенным нами критериям.`,
+    overview: `Working with axios. Searching for selected parameters.`,
 },
 {
     id: 5,
@@ -47,5 +48,14 @@ export const Projects = [{
     deploy: "https://project-test-liart.vercel.app/",
     image: VacManagerGif,
     code: "https://github.com/sevichok/Project-test",
-    overview: `Формы`,
+    overview: `Working with Ant Design styling. Basic logic for forms.`,
+},
+{
+    id: 6,
+    title: "Jokes Generator",
+    techs: "JS, React.JS, Rest API",
+    deploy: "https://jokes-generator-one.vercel.app/",
+    image: JokeGenGif,
+    code: "https://github.com/sevichok/jokes-generator",
+    overview: `Work with joke-generator-api.`,
 },]
